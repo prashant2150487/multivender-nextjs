@@ -1,9 +1,16 @@
-import React from 'react'
+import Heading from "@/components/backoffice/Heading";
+import LargeCards from "@/components/backoffice/LargeCards";
+import React from "react";
 
 const Page = () => {
   return (
-    <div>Page</div>
-  )
-}
+    <div>
+      <Heading title="Dashboard Overview" />
+      <div>
+        <LargeCards/>
+      </div>
+    </div>
+  );
+};
 
-export default Page
+export default Page;
